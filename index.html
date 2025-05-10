@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>Jualan app prem</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    background-image: url('https://img1.pixhost.to/images/5651/597027406_depayyy.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #fff;
+    line-height: 1.6;
+  }
+  .container {
+    max-width: 400px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+    padding: 24px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  header h1 {
+    font-size: 1.8rem;
+    color: #222;
+    margin: 0;
+  }
+  .panel-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .panel-item {
+    background: #f0f4ff;
+    padding: 16px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 0.3s ease;
+  }
+  .panel-item:hover {
+    background: #d4e0ff;
+  }
+  .panel-info {
+    display: flex;
+    flex-direction: column;
+  }
+  .panel-name {
+    font-weight: 600;
+    color: #1a1a1a;
+    font-size: 1.1rem;
+    margin-bottom: 4px;
+  }
+  .panel-desc {
+    font-size: 0.85rem;
+    color: #555;
+  }
+  .panel-price {
+    font-weight: 700;
+    color: #0047b3;
+    font-size: 1rem;
+  }
+  .btn-beli {
+    background: #25d366;
+    border: none;
+    color: white;
+    padding: 10px 18px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-left: 12px;
+  }
+  .btn-beli:hover {
+    background: #1aa34a;
+  }
+  @media (max-width: 400px) {
+    body {
+      padding: 10px;
+    }
+    .container {
+      padding: 16px;
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="container" role="main">
+    <header>
+      <h1>ARGZ STORE MENYEDIAKAN</h1>
+    </header>
+    <section class="panel-list" aria-label="Daftar produk panel">
+      <article class="panel-item" tabindex="0">
+        <div class="panel-info">
+          <div class="panel-name">vps digitalocean | 𝟷𝟻rb - 𝟾𝟶rb</div>
+          <div class="panel-desc">Vps digitalocean R4c4 R8c4 R16c4 R16c8 R32C8 Ayo beli </div>
+        </div>
+        <div class="panel-price">Rp35.000 r16c4</div>
+        <button class="btn-beli" aria-label="Beli Vps Digitalocean" onclick="beliWhatsApp('Vps Digitalocean R16c4')">Beli</button>
+  <div class="panel-price">Rp30.000 R8c2</div>
+        <button class="btn-beli" aria-label="Beli R8c2" onclick="beliWhatsApp('Vps digitalocean R8c2', '30.000')">Beli</button>
+  <div class="panel-price">Rp </div>
+        <button class="btn-beli" aria-label="Beli Youtube premium" onclick="beliWhatsApp('Youtube premium', '5000')">Beli</button>
+  <div class="panel-price">Rp </div>
+        <button class="btn-beli" aria-label="Beli Youtube premium" onclick="beliWhatsApp('Youtube premium', '5000')">Beli</button>                  
+      </article>
+      <article class="panel-item" tabindex="0">
+        <div class="panel-info">
+          <div class="panel-name">Netflix</div>
+          <div class="panel-desc">Nteflix premium 1 bulan</div>
+        </div>
+        <div class="panel-price">Rp 10.000</div>
+        <button class="btn-beli" aria-label="Beli Netflix Premium" onclick="beliWhatsApp(Netflix Premium', '10.000')">Beli</button>
+      </article>
+      <article class="panel-item" tabindex="0">
+        <div class="panel-info">
+          <div class="panel-name">Nokos indo sekali pakai</div>
+          <div class="panel-desc">Nokos itu nomor sekali pakai</div>
+        </div>
+        <div class="panel-price">Rp 5000</div>
+        <button class="btn-beli" aria-label="Beli Nokos" onclick="beliWhatsApp('Nokos', '5000')">Beli</button>
+      </article>
+    </section>
+  </div>
+<script>
+  function beliWhatsApp(namaProduk, harga) {
+    const nomorWA = '62858801507610'; // Ganti dengan nomor WhatsApp tujuan (format internasional tanpa +)
+    const pesan = `Halo, saya ingin membeli produk *${namaProduk}* dengan harga Rp ${harga}. Mohon info lebih lanjut.`;
+    const urlWA = `https://wa.me/${nomorWA}?text=${encodeURIComponent(pesan)}`;
+    window.open(urlWA, '_blank');
+    
+  COPYRIGH © 2025 WEB INI DILINDUNGI HAK CIPTA
+</script>
+</body>
+</html>
+
+```
